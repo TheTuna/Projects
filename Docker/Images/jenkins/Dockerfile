@@ -1,5 +1,5 @@
-FROM jenkins/jenkins:2.414.3-jdk17
-ENV REFRESHED_AT 2023-10-30
+FROM jenkins/jenkins:lts-jdk17
+ENV REFRESHED_AT 2025-02-01
 USER root
 RUN apt update; apt install -y sudo
 RUN apt-get update && apt-get install -y lsb-release
