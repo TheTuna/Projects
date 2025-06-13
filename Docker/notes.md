@@ -4,7 +4,10 @@
     <details>
        <summary>Cause</summary>
         Image alpine:latest does have rc installed by default.
-       <summary>Solution</summary>
+    </details>
+    
+    <details>
+    <summary>Solution</summary>
         Install openrc by running the following command: '''apk add openrc'''
     </details>
 
